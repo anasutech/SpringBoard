@@ -1,0 +1,129 @@
+body{
+   width: 85%;
+   margin: auto;
+  
+}
+header{
+   background-color:teal;
+}
+header img{
+   border-radius: 98%;
+   border:2px rgb(248, 68, 13) solid;
+   margin: 20px 35px 0;
+}
+nav section{
+   margin: 0 25px 0 ;
+   padding: 1px 10px;
+}
+nav section h2{
+   font-family: "Anton", serif;
+   font-size: 24px;
+   font-weight: 400;
+   font-style: normal;
+   color:rgb(255, 248, 248);
+   text-shadow:black 1px 2px;
+   letter-spacing: 1px;
+   
+}
+
+
+.moveleft{
+   padding-left: 30px;
+   border:1px black solid;
+  
+}
+.moveleft h2{
+   text-decoration:  underline;
+}
+.moveleft:hover{
+   background-color:darkgray; 
+}
+.conactform{
+background-color: teal;
+border: 1px black solid;
+margin-top: 10px;
+}
+
+#bgh2{
+   background-color:rgb(3, 80, 80);
+   text-align: center;
+   padding-top: 1px;
+   padding-bottom: 1px;
+   border: 1px black solid;
+   margin-bottom: 15px;
+   color: antiquewhite;
+   
+}
+#form1{
+   background-color: cadetblue;
+   width: 33%;
+   margin-left: 30px;
+   border: 1px white solid;
+   
+}
+.addp{
+   padding: 15px 10px 10px 30px;
+}
+.shift{
+   width: 33%;
+   margin: 15px;
+   padding-left: 20px;
+}
+.addp input{
+   margin-left: 10px;
+   text-align: center;
+   width: 80%;
+  
+}
+.addp input:hover{
+   background-color: orangered;
+   border: 1px yellow solid;
+  
+   
+}
+.addp input:focus{
+   background-color: orangered;
+   outline: none;
+   text-align: center;
+   border: 1px yellow solid;
+   color: aliceblue;
+  
+}
+input::placeholder{
+   color:brown;
+   text-align: center;
+}
+select{
+   outline: none;
+}
+fieldset{
+   background-color: cadetblue;
+}
+fieldset label:hover{
+   color: yellow;
+}
+fieldset label [type=checkbox]:hover{
+   color: yellow;
+
+}
+textarea:focus{
+   outline: none;
+}
+.shift button{
+   width: 100px;
+   height: 30px;
+   margin-right: 10px;
+   background-color: orangered;
+   outline: none;
+   border: 1px yellow solid;
+}
+.shift button:hover{
+   background-color: cadetblue;
+}
+footer{
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+footer a{
+   margin-left: 20px;
+}
